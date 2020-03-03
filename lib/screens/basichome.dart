@@ -1,9 +1,7 @@
 
+import 'package:f_simple_button/widgets/singletext.dart';
 import 'package:flutter/material.dart';
-import 'crosslayout.dart';
-import 'singletext.dart';
-import 'columnLayout.dart';
-import 'rowlayout.dart';
+
 
 class BasicHome extends StatelessWidget {
   BasicHome({this.title});
@@ -16,12 +14,12 @@ class BasicHome extends StatelessWidget {
       appBar: AppBar(
         title: Text(this.title),
       ),
-      body: Center(
-        //child: SingleText(),
+      body: 
+        SingleText(theText : "El parametro"),
         //child : ColumnLayout(),
         //child : RowLayout(),
-        child: CrossLayout(),
-      ),
+        //child: CrossLayout(),
+      
     );
   }
 
