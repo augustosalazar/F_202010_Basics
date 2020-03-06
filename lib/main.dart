@@ -1,5 +1,6 @@
 import 'package:f_simple_button/screens/basichome.dart';
 import 'package:f_simple_button/screens/dialoghome.dart';
+import 'package:f_simple_button/screens/drawer_home.dart';
 import 'package:f_simple_button/screens/stateless_home.dart';
 import 'package:flutter/material.dart';
 
@@ -21,7 +22,8 @@ class MyApp extends StatelessWidget {
       ),
       //home:  BasicHome( title: "Home title"),
       //home: StatelessHome(),
-      home: DialogHome(),
+      //home: DialogHome(),
+        home: DrawerHome(title: "Drawer example")
     );
   }
 }
